@@ -22,7 +22,7 @@ export default function ItemDetail() {
     const [bid,setBid]=React.useState()
     const [item,setItem]=React.useState([])
     const [quantity,setQuantity]=React.useState(1);
-    const buyer_id=cookies.buyer_id
+    const buyer_id=parseInt(cookies.buyer_id)
     function togglePop(){
         setVisible(!visible);
     }

@@ -12,7 +12,7 @@ export default function Cart() {
     const {token,onLogin}=useBuyerAuth()
     const [items, setItems] = React.useState([])
     const [cookies, setCookie, removeCookie] = useCookies(['buyer']);
-    const buyer_id=cookies.buyer_id
+    const buyer_id=parseInt(cookies.buyer_id)
 
     React.useEffect(() => {
         //get user id

@@ -31,7 +31,7 @@ export default function CartItemDetail() {
     const [searchParams] = useSearchParams();
     React.useEffect(()=>{
         var item_id = searchParams.get('item_id');
-        var buyer_id = cookies.buyer_id
+        var buyer_id = parseInt(cookies.buyer_id)
        // setItem(mockAuction)
       if(item==MockOrderWithFixedPrice){
          getRequest(CustomerGetSpecificCartItem(buyer_id,item_id), setItem)

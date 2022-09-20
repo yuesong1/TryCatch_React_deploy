@@ -72,12 +72,12 @@ export default function Orders() {
 
                                         (item==undefined)? <></>:
                                             <tr onClick={() => toDetail(item.order_id)}>
-                                            <td>{item.item.name}</td>
+                                            {/* <td>{item.item.name}</td> */}
                                             <td>{item.customer_id}</td>
-                                            <td>{item.item.seller_id}</td>
+                                            {/* <td>{item.item.seller_id}</td> */}
                                             <td>{item.quantity}</td>
-                                            <td>{item.item.buy_now_price}</td>
-                                            <td>{item.item.listing_type? <>Fixed-price</>:<>Auction</>}</td>
+                                            {/* <td>{item.item.buy_now_price}</td> */}
+                                            {/* <td>{item.item.listing_type? <>Fixed-price</>:<>Auction</>}</td> */}
                                         </tr>
                                     
 
