@@ -1,0 +1,281 @@
+:root{
+    --text-nav-font: "Fredoka";
+    --color-purple:#c8f4ff;; 
+    --color-darkblue: #b8f1ff;
+    --color-blue:rgb(33, 91, 214);
+    --color-font:rgb(30, 57, 116);
+    --nav-width:150px;
+
+}
+div.warningPop{
+    
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+div.slogin{
+
+    width: 300px;
+    height: 300px;
+    background-color: var(--color-purple);
+    border-radius:30px  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.spage{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+input.sinput{
+    height: unset;
+    width: unset;
+    border-color: #ffffff;
+    padding: unset;
+    border-radius: 0;
+}
+h1.stitle{
+    font-style: var(--text-nav-font);
+    font-size: 70px;
+    color: #6B6B6B;
+}
+div.stop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input.scred{
+    margin: 7px;
+    height: 20px;
+    width: calc(300px*0.7);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 3px 3px #3333;
+}
+input.scred:hover{
+    background-color: rgb(240, 240, 240);
+}
+button.slogin{
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 20px;
+    width: calc(300px*0.75);
+    font-size:16px;
+    color: white;
+    background-color: #a4dbff;;
+
+}
+button.slogin:hover{
+    background-color: #447ea5;;
+}
+
+p.recover_p{
+    color: #6E6B6B;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+p.ssign_in{
+    color: white;
+    margin: 0;
+}
+
+div.snav{
+    background-color: var(--color-blue);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+button.snav{
+    font-size: large;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    color: var(--color-font);
+}
+button.snav:hover{
+    color:white;
+    background-color: rgb(39, 69, 151);
+}
+p.sinfo{
+    color:white;
+    margin: 0;
+    font-size:medium;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+div.scontainer{
+    display: flex;
+
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+div.sleft{
+
+}
+div.sright{
+
+}
+div.ssub{
+    margin: 30px 15px 15px 15px;
+    background-color: rgb(236, 236, 236);
+    width: 45vw;
+    height: 90vh;
+    border-radius: 10px;
+}
+div.ssubnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.ssub{
+    font-size:medium;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: var(--color-blue);
+    border-radius: 10px 10px 0 0
+}
+button.ssub:hover{
+    background-color: #295e81;
+}
+button.snewlisting{
+    margin-right: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #ff6875;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button.snewlisting:hover{
+    background-color: #c9535d;
+}
+div.slist{
+    overflow: auto;
+    height: inherit;
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+div.slist::-webkit-scrollbar{
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+div.slist{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+div.sitem{
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    padding: 5px 10px 5px 20px;
+    justify-content: space-between;
+}
+div.sitem:hover{
+    background-color: #c4c4c4;
+}
+div.sitem:active{
+    background-color: var(--color-blue);
+}
+div.item:focus{
+    background-color: var(--color-blue);
+    
+}
+button.sdelete{
+    background: none;
+    border: none;
+}
+button.sdelete:hover{
+    background-color: #c4c4c4;
+}
+button.screate{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px 0 10px 0;
+    border: none;
+    background-color: #ff6875;
+    font-size: large;
+    color: white;
+}
+div.sright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.sform{
+    padding: 30px;
+}
+textarea{
+    width: 100%; 
+    height: 50%;  
+}
+div.slutil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+button.sutil{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+button.sadd{
+    background-color: #ff6875;
+}
+button.sadd:hover{
+    background-color: #c9535d;
+}
+button.scancel{
+    background-color: #474747;
+}
+button.scancel:hover{
+    background-color: #3a3030;
+}
+button.ssetting{
+    background-color: var(--color-blue);
+    font-size: large;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+button.ssetting:hover{
+    background-color: #295e81;
+}
+div.stag{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+div.snav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
