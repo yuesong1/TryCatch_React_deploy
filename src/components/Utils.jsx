@@ -43,7 +43,8 @@ export function getRequest(targetUrl, setData) {
   })
 }
 export const backend = {
-  url: "http://localhost:8080/app/"
+  //url: "http://localhost:8080/app/"
+  url:"https://ancient-retreat-46698.herokuapp.com/"
 }
 export function AdminViewAllOrder() {
   return backend.url + 'AdminViewAllOrder'
